@@ -1,96 +1,109 @@
 <!DOCTYPE html>
-
 <html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!--jQuery library--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+    <!--Latest compiled and minified JavaScript--> 
 
-<head>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<title>Lifestyle Store</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</head>
+    <link rel="stylesheet" href="style.css">
+    <title>Lifestyle</title>  
+    </head>
+        <body style="padding-top: 50px;">
+        <!-- Header -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Lifestyle Store</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Header end-->
 
+        <div id="content">
+            <!--Main banner image-->
+            <div id = "banner_image">
+                <div class="container"> 
+                    <center>
+                        <div class="banner_content">
+                            <h1>We sell lifestyle.</h1>
+                            <p>Flat 40% OFF on premium brands </p>
+                            <br/>
+                            <a  href="products.html" class="btn btn-danger btn-lg active">Shop Now</a>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <!--Main banner image end-->
 
-<body>
-		<div class="header">
-			<div class="inner-header">
-				<div class="logo">
-					<a href="#Lifestyle Store" title="Logo">Lifestyle Store</a>
-					</div>
-						<div class="header-link">
-						<a href="#header-link" title="sign-up">Sign-up</a>
-						</div>
-						<div class="header-link">
-						<a href="#header-link" title="login">Login</a>
-					</div>
-			</div>
-		</div>
+            <!--Item categories listing-->
+            <div class="container">
+                <div class="row text-center" id="item_list">
+                    <div class="col-sm-4">
+                        <a href="products.html#camera" >
+                            <div class="thumbnail">
+                                <img src="2.jpg" alt="camera">
+                                <div class="caption">
+                                    <h3>Cameras</h3>
+                                    <p>Choose among the best available in the world.</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
 
-		<div  class="content">
-			<div class="banner-image">
-				<div class="inner-banner-image">
-					<div class="banner-content">
-						<h1>
-							We sell lifestyle.
-						</h1>
-						<p>
-							Flat 40% OFF on premium brands.
-						</p>
-						<a class="button" href="#shopNow">Shop Now</a>
-					</div>
-					
-				</div>
-				
-			</div>
+                    <div class="col-sm-4">
+                        <a href="products.html#watches" >
+                            <div class="thumbnail">
+                                <img src="21.jpg" alt="watches">
+                                <div class="caption">
+                                    <h3>Watches</h3>
+                                    <p>Original watches from the best brands.</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
 
-		</div>
+                    <div class="col-sm-4">
+                        <a href="products.html#shirts" >
+                            <div class="thumbnail">
+                                <img src="25.jpg" alt="shirts">
+                                <div class="caption">
+                                    <h3>Shirts</h3>
+                                    <p>Our exquisite collection of shirts.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Item categories listing end-->
+        </div>
 
-
-		<div class="container">
-			<div class="items">
-				<a href="#"> 
-				 <img  class="thumbnail" src="https://static.fotokonijnenberg.nl/media/catalog/product/cache/small_image/500x/9df78eab33525d08d6e5fb8d27136e95/p/e/pentax_k-50_zwart_body-1.jpg" alt="Camera">
-				 	<div class="caption">
-				 		<h2>Camera</h2>
-				 		<p>Choose among the best available in the world</p>
-				 	</div>
-
-				  </a>
-			</div>
-			<div class="items">
-				<a href="#"	> 
-				 <img  class="thumbnail" src="https://s-media-cache-ak0.pinimg.com/736x/d4/1f/92/d41f928f410aac7ea84c189462772b48.jpg" alt="Watches">
-				 	<div class="caption">
-				 		<h2>Watches</h2>
-				 		<p>Choose among the best watches in the world</p>
-				 	</div>
-
-				  </a>
-			</div>
-			<div class="items">
-				<a href="#"> 
-				 <img  class="thumbnail" src="http://lqp-p-imgs.s3-ap-south-1.amazonaws.com/faceview/jh/e9j/jh/ac/affimgs/az-large-2974997.jpg" alt="Camera">
-				 	<div class="caption">
-				 		<h2>Sunglasses</h2>
-				 		<p>Choose among the best available in the world</p>
-				 	</div>
-
-				  </a>
-			</div>
-			
-			<footer>
-			<center>
-				<p>Copyright @ Lifestyle Store</p>
-				<p>Developed By SacHin Mate</p> 
-			
-			</footer>
-
-				
-			
-		</div>
-
-
-
-</body>
+        <!--Footer-->
+        <footer>
+            <div class="container">
+                <center>
+                    <p>Copyright &copy; Lifestyle Store. All Rights Reserved  |  Contact Us: +91 90000 00000</p>    
+                </center>
+            </div>
+        </footer>
+        <!--Footer end-->
+    </body>
 
 </html>
